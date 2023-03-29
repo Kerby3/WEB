@@ -1,0 +1,11 @@
+.ad {
+	position: relative;
+	margin: auto;
+}
+
+.adForm, .adField .adItem {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-grow: 1;
+}
