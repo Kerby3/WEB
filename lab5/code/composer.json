@@ -1,0 +1,17 @@
+{
+    "name": "root/code",
+    "autoload": {
+        "psr-4": {
+            "Root\\Code\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kerby"
+        }
+    ],
+    "require": {
+        "ext-mysqli": "*",
+        "google/apiclient": "^2.13"
+    }
+}
