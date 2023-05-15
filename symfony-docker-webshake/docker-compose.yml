@@ -36,11 +36,10 @@ services:
     container_name: mysql
     restart: always
     environment:
-      #- "MYSQL_ROOT_PASSWORD=secret"
+      - "MYSQL_ROOT_PASSWORD=secret"
       - "MYSQL_DATABASE=symfony_docker"
       - "MYSQL_USER=symfony"
       - "MYSQL_PASSWORD=symfony"
-      - "MYSQL_ALLOW_EMPTY_PASSWORD=1"
     ports:
       - '4306:3306'
 
